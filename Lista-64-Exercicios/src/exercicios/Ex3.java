@@ -19,4 +19,5 @@ public class Ex3 {
 		System.out.print("Comissão: R$ "
 				+ String.format("%.2f", unitPrice * units));
 	}
+	
 }
