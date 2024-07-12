@@ -10,9 +10,9 @@ public class Ex27 {
 		int factorial = 1;
 
 		System.out.print("Quantidade de números: ");
-		int qtt = in.nextInt();
+		int qty = in.nextInt();
 		
-		for (int i = 1; i <= qtt; i++) {
+		for (int i = 1; i <= qty; i++) {
 			System.out.print("\n" + i + "º número: ");
 			factorial *= in.nextInt();
 			System.out.println("Fatorial = " + factorial);
